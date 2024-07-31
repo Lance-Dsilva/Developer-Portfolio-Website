@@ -619,7 +619,7 @@ header .navbar ul li a:hover {
   }
   .about .row .image img {
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     mix-blend-mode: normal;
   }
   .about .row {
@@ -1193,7 +1193,7 @@ header .navbar ul li a:hover {
   }
 
   .experience .right::after {
-    left: 15px;
+    left: -3px;
   }
 
   .experience .right {
