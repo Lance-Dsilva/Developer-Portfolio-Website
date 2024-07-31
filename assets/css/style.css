@@ -371,7 +371,7 @@ header .navbar ul li a:hover {
     display: block; /* Ensure each button is on its own line */
     width: calc(100% - 2rem); /* Full width minus margin */
     max-width: 300px; /* Limit button width */
-    margin: 0.1rem auto; /* Center buttons and add space */
+    margin: 0.1rem ; /* Center buttons and add space */
   }
   }
   
