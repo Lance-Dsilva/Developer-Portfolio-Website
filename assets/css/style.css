@@ -362,17 +362,21 @@ header .navbar ul li a:hover {
     transition: box-shadow 0.5s ease, transform 0.5s ease;
   }
   .home .btn-container {
-    display: block; /* Stack buttons vertically */
-    width: 100%; /* Full width */
-    text-align: center; /* Center text within container */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center align buttons */
+    gap: 0.5rem; /* Reduce spacing between buttons */
+    margin-top: 1rem; /* Adjust top margin if necessary */
   }
 
- .home .btn {
-    display: block; /* Ensure each button is on its own line */
-    width: calc(100% - 2rem); /* Full width minus margin */
-    max-width: 300px; /* Limit button width */
-    margin: 0; /* Remove top margin */
+  .home .btn {
+    margin: 0; /* Remove margin */
     padding: 1.2rem 2.5rem; /* Adjust padding for a better fit */
+    width: 80%; /* Ensure buttons are of consistent width */
+    text-align: center; /* Center align text */
+  }
+
+  .home .btn i {
+    font-size: 1.2rem; /* Adjust icon size */
   }
   }
   
