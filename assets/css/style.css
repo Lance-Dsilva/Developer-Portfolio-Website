@@ -464,12 +464,13 @@ header .navbar ul li a:hover {
 @media (max-width: 450px) {
   .home .btn {
     margin: 4rem 0;
+    margin-bottom: 2px;
   }
   .socials {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
   .home .image img {
-    margin-top: -5rem;
+    margin-top: -6rem;
   }
   .home .content p {
     font-size: 2.2rem;
