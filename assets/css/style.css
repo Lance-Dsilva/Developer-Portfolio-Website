@@ -367,11 +367,12 @@ header .navbar ul li a:hover {
     text-align: center; /* Center text within container */
   }
 
-  .home .btn {
+ .home .btn {
     display: block; /* Ensure each button is on its own line */
     width: calc(100% - 2rem); /* Full width minus margin */
     max-width: 300px; /* Limit button width */
-    margin: 0.1rem ; /* Center buttons and add space */
+    margin: 0; /* Remove top margin */
+    padding: 1.2rem 2.5rem; /* Adjust padding for a better fit */
   }
   }
   
