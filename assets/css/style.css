@@ -467,7 +467,7 @@ header .navbar ul li a:hover {
     margin-bottom: 2px;
   }
   .socials {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
   .home .image img {
     margin-top: -4rem;
@@ -1173,7 +1173,7 @@ header .navbar ul li a:hover {
   }
 
   .experience .container {
-    width: 90%;
+    width: 100%;
     padding-left: 40px;
     padding-right: 40px;
     text-align: left; /* Keep text alignment inside containers to the left */
